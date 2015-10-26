@@ -12,7 +12,7 @@ set tabstop=2
 set listchars=tab:>.,trail:-,extends:>,precedes:<
 set list
 set encoding=utf-8
-set shiftwidth=2
+set shiftwidth=4
 
 " Set leader to comma.
 let mapleader = ","
@@ -138,7 +138,6 @@ Bundle 'gmarik/vundle'
 Bundle 'ervandew/supertab'
 Bundle 'scrooloose/syntastic'
 Bundle 'sumpygump/php-documentor-vim'
-Bundle 'joestelmach/lint.vim'
 Bundle 'garbas/vim-snipmate'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle "tomtom/tlib_vim"
@@ -203,10 +202,6 @@ endif
 au BufRead,BufNewFile *.php inoremap <buffer> <C-P> :call PhpDoc()<CR>
 au BufRead,BufNewFile *.php nnoremap <buffer> <C-P> :call PhpDoc()<CR>
 au BufRead,BufNewFile *.php vnoremap <buffer> <C-P> :call PhpDocRange()<CR>
-
-let g:pdv_cfg_Package = 'Crononauta'
-let g:pdv_cfg_Author = 'Francisco Pérez <francisco.perez@crononauta.com>'
-let g:pdv_cfg_ClassTags = ["package","author","version"]
 
 let g:indent_guides_auto_colors = 1 
 let g:indent_guides_enable_on_vim_startup = 1 
