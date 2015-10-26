@@ -1,4 +1,4 @@
-# My Vim Config
+# My Vim Configuration
 
 ## Base branch
 This is the base branch for PHP developers
