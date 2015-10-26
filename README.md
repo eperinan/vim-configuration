@@ -15,7 +15,7 @@ This Vim config is based on [Vunde](https://github.com/gmarik/vundle).
 ### Steps
 
 ```git
-git clone git@github.com:FPerezP/myvim.git ~/.vim
+git clone git@github.com:ernestoperinan/myvim.git ~/.vim
 git clone git@github.com:gmarik/vundle.git ~/.vim/bundle/vundle
 ln -s ~/.vim/vimrc ~/.vimrc
 mkdir ~/.vim/_temp
@@ -44,21 +44,14 @@ Check syntax for a few programming languages like PHP, Ruby, Python, C, C++, ...
 ### Bundle 'sumpygump/php-documentor-vim'
 Generates your function and classes comments template.
 
-### Bundle 'joestelmach/lint.vim'
-Check syntax for Javascript and CSS. It´s needed to install V8 library. To do it, you could follow instraction included at the [original plugin repository](https://github.com/joestelmach/lint.vim)
-
 ### Bundle 'garbas/vim-snipmate'
 Allows you to create code snippets.
 
 ### Bundle 'MarcWeber/vim-addon-mw-utils'
 Just a few utils like caching  content or tiny blob windows that is used by other vim plugins included in this repo. Just a required plugin.
 
-
 ### Bundle "tomtom/tlib_vim"
 Another required package.
-
-### Bundle "honza/snipmate-snippets"
-Predefined code snippets for PHP, Python, Javascript,...
 
 ### Bundle 'tpope/vim-fugitive'
 Allows you to execute Git commands and, the most important feature, to navigate throw the git object.
