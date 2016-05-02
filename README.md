@@ -15,8 +15,8 @@ This Vim config is based on [Vunde](https://github.com/gmarik/vundle).
 ### Steps
 
 ```git
-git clone git@github.com:ernestoperinan/myvim.git ~/.vim
-git clone git@github.com:gmarik/vundle.git ~/.vim/bundle/vundle
+git clone https://github.com/ernestoperinan/vim-configuration.git ~/.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
 ln -s ~/.vim/vimrc ~/.vimrc
 mkdir ~/.vim/_temp
 mkdir ~/.vim/_backup
