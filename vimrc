@@ -153,6 +153,8 @@ Bundle 'airblade/vim-gitgutter'
 Bundle 'vim-airline/vim-airline'
 Bundle 'honza/vim-snippets'
 Bundle 'rodjek/vim-puppet'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 " vim-scripts repos
 Bundle 'L9'
