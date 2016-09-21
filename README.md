@@ -7,18 +7,11 @@ I recommend to read vimrc file and erase everything you dont understand. There a
 **Why a vim config repo?**
 Well, the main reason is to be able to port my Vim config easily to any enviroment where I am coding. Another reason, it´s that it is very easy to change installed bundles just changing actual branch. Having different branches with different configs gets us different behaviours depending on the programming language we are coding, or, for example, modify our code snippets depending on this language: A for or while loop hasn´t the same syntax in all programming languages.
 
-## Instalation
-This Vim config is based on [Vunde](https://github.com/gmarik/vundle).
+## Installation
 
-### Steps
-
-```git
+```
 git clone https://github.com/ernestoperinan/vim-configuration.git ~/.vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle
-ln -s ~/.vim/vimrc ~/.vimrc
-mkdir ~/.vim/_temp
-mkdir ~/.vim/_backup
-vim +BundleInstall +qall!
+bash install.sh
 ```
 
 ## Description

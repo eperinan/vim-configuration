@@ -125,9 +125,8 @@ map <silent> <C-n> :tabe<CR>
 
 set nocompatible               " be iMproved
 filetype off                   " required!
-
- set rtp+=~/.vim/bundle/vundle/
- call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#rc()
 
 " let Vundle manage Vundle
 " required! 
@@ -206,11 +205,6 @@ if has("statusline") && !&cp
   " set statusline+=Buf:#%n
   " set statusline+=[%b][0x%B]
 endif
-
-" Key maps for phpDocumentor
-au BufRead,BufNewFile *.php inoremap <buffer> <C-P> :call PhpDoc()<CR>
-au BufRead,BufNewFile *.php nnoremap <buffer> <C-P> :call PhpDoc()<CR>
-au BufRead,BufNewFile *.php vnoremap <buffer> <C-P> :call PhpDocRange()<CR>
 
 let g:indent_guides_auto_colors = 1 
 let g:indent_guides_enable_on_vim_startup = 1 
