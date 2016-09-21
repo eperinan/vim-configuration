@@ -14,44 +14,5 @@ git clone https://github.com/ernestoperinan/vim-configuration.git ~/.vim
 bash install.sh
 ```
 
-## Description
-Here are allo bundles I have installed and a short description. All of them have a lot of functions that are not discribed here.
-
-### Bundle 'ervandew/supertab'
-Allows you to autocomplete function names using tab key.
-
-### Bundle 'scrooloose/syntastic'
-Check syntax for a few programming languages like PHP, Ruby, Python, C, C++, ...
-
-### Bundle 'sumpygump/php-documentor-vim'
-Generates your function and classes comments template.
-
-### Bundle 'garbas/vim-snipmate'
-Allows you to create code snippets.
-
-### Bundle 'MarcWeber/vim-addon-mw-utils'
-Just a few utils like caching  content or tiny blob windows that is used by other vim plugins included in this repo. Just a required plugin.
-
-### Bundle "tomtom/tlib_vim"
-Another required package.
-
-### Bundle 'tpope/vim-fugitive'
-Allows you to execute Git commands and, the most important feature, to navigate throw the git object.
-
-### Bundle 'scrooloose/nerdtree'
-File commander.
-
-### Bundle 'jistr/vim-nerdtree-tabs'
-NERDTree extension that allows you to have the same commander in all tabs you open.
-
-### Bundle 'L9'
-Another required package.
-
-### Bundle 'FuzzyFinder'
-Allows you to find files/folders and open them just typing a part of its name.
-
-### Bundle 'nathanaelkane/vim-indent-guides'
-Highlights indent levels.
-
 ## Thanks
-Well, I would like to thank to [eurodev](https://github.com/eurodev), [FPerezP](https://github.com/FPerezP) and all [Crononauta](https://github.com/crononauta) team for discovering me this wonderfull editor. Special thanks to [nacmartin](https://github.com/nacmartin), your plugins recommendations help me soooo much.
+Well, I would like to thank to [eurodev](https://github.com/eurodev), [FPerezP](https://github.com/FPerezP),[jmarente](https://github.com/jmarente) and all [Crononauta](https://github.com/crononauta) team for discovering me this wonderfull editor. Special thanks to [nacmartin](https://github.com/nacmartin), your plugins recommendations help me soooo much.
