@@ -15,4 +15,4 @@ bash install.sh
 ```
 
 ## Thanks
-Well, I would like to thank to [eurodev](https://github.com/eurodev), [FPerezP](https://github.com/FPerezP),[jmarente](https://github.com/jmarente) and all [Crononauta](https://github.com/crononauta) team for discovering me this wonderfull editor. Special thanks to [nacmartin](https://github.com/nacmartin), your plugins recommendations help me soooo much.
+Well, I would like to thank to [eurodev](https://github.com/eurodev), [FPerezP](https://github.com/FPerezP), [jmarente](https://github.com/jmarente) and all [Crononauta](https://github.com/crononauta) team for discovering me this wonderfull editor. Special thanks to [nacmartin](https://github.com/nacmartin), your plugins recommendations help me soooo much.
