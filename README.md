@@ -11,6 +11,7 @@ Well, the main reason is to be able to port my Vim config easily to any envirome
 
 ```
 git clone https://github.com/ernestoperinan/vim-configuration.git ~/.vim
+cd ~/.vim
 bash install.sh
 ```
 
