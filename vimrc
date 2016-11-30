@@ -154,6 +154,7 @@ Bundle 'honza/vim-snippets'
 Bundle 'rodjek/vim-puppet'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'yegappan/mru'
 
 " vim-scripts repos
 Bundle 'L9'
